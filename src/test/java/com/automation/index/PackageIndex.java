@@ -10,6 +10,7 @@ import com.automation.init.SeleniumInit;
 import com.automation.utility.Common;
 import com.automation.utility.Common_demo;
 import com.automation.utility.TestData;
+import com.aventstack.extentreports.Status;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 
@@ -17,7 +18,7 @@ public class PackageIndex extends SeleniumInit {
 
 	public static int step, numberOfFailure = 1;
 	SoftAssert softassertion = new SoftAssert();
-	public static ExtentTest logger;
+	public static com.aventstack.extentreports.ExtentTest logger;
 	public static ExtentTest test_package;
 	public static void getTest(ExtentTest test) {
 		// TODO Auto-generated method stub
@@ -26,6 +27,12 @@ public class PackageIndex extends SeleniumInit {
 		//test.log(LogStatus.INFO, "Step 5");
 		test_package.log(LogStatus.INFO, "Step 5");
 	}
+	
+	public static void getlogger(com.aventstack.extentreports.ExtentTest parent) {
+		// TODO Auto-generated method stub
+		logger = parent;
+	}
+
 
 	@Test
 	public void TC_SignUp_01() {
@@ -92,16 +99,21 @@ public class PackageIndex extends SeleniumInit {
 
 		Common.logstep("Step" + (step++) + ": Open the Url---> https://staging.3dbroadcastsales.com/");
 		
+		logger.log(Status.INFO, "Open the Url---> https://staging.3dbroadcastsales.com/");
+		
 		test_package.log(LogStatus.INFO,"Step\" + (step++) + \": Open the Url---> https://staging.3dbroadcastsales.com/");
-
+		
+		
 		if (packageVerification.homepageverify()) {
 			Common.logveri("-----> 3dbroadcastsales home page open <-----");
 			test_package.log(LogStatus.INFO,"-----> 3dbroadcastsales home page open <-----");
+			logger.log(Status.INFO, "-----> 3dbroadcastsales home page open <-----");
 			Common.AssertPassed();
 			Assert.assertTrue(true);
 		} else {
 			Common.logveri("-----> 3dbroadcastsales home page  not open <-----");
 			test_package.log(LogStatus.INFO,"-----> 3dbroadcastsales home page not open <-----");
+			logger.log(Status.INFO, "-----> 3dbroadcastsales home page not open <-----");
 			Common.AssertFailed();
 			Common.makeScreenshot(driver, "LoginFailed");
 		}
@@ -110,11 +122,15 @@ public class PackageIndex extends SeleniumInit {
 		
 		test_package.log(LogStatus.INFO,"Step\" + (step++) + \": Click on the Login menu");
 		
+		logger.log(Status.INFO, ": Click on the Login menu");
+		
 		packageVerification = packageIndexpage.click_login_menu();
 
 		Common.logstep("Step" + (step++) + ": Enter the Details for Login");
 		
 		test_package.log(LogStatus.INFO,"Step\" + (step++) + \": Enter the Details for Login");
+		
+		logger.log(Status.INFO, ": Enter the Details for Login");
 		
 		packageVerification = packageIndexpage.login_details();
 
@@ -122,11 +138,15 @@ public class PackageIndex extends SeleniumInit {
 		
 		test_package.log(LogStatus.INFO,"Step\" + (step++) + \": Click on Login button");
 		
+		logger.log(Status.INFO, ": Click on Login button");
+		
 		packageVerification = packageIndexpage.login_buton();
 
 		Common.logstep("Step" + (step++) + ": User Login verification.");
 		
 		test_package.log(LogStatus.INFO,"Step\" + (step++) + \": User Login verification.");
+		
+		logger.log(Status.INFO, ": User Login verification.");
 
 		if (packageVerification.logindetailsverification()) {
 			System.out.println("Test Pass.......");
@@ -384,6 +404,5 @@ public class PackageIndex extends SeleniumInit {
 		else
 			TestData.SheetResultcellupdate(4, 3, "Pass");
 	}//End of TC_Wish_Compare_04 function
-
 	
 }// End of Class

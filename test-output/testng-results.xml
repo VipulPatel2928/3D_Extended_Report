@@ -56,38 +56,38 @@
       <![CDATA[<strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> ]]>
     </line>
   </reporter-output>
-  <suite name="3DBroadCastSales_Functional_Test_Suite" duration-ms="140469" started-at="2019-02-12T17:20:31Z" finished-at="2019-02-12T17:22:52Z">
+  <suite name="3DBroadCastSales_Functional_Test_Suite" duration-ms="138142" started-at="2019-02-12T17:48:28Z" finished-at="2019-02-12T17:50:46Z">
     <groups>
     </groups>
-    <test name="TC_LogIn_02: Verify User LogIn functionality" duration-ms="140469" started-at="2019-02-12T17:20:31Z" finished-at="2019-02-12T17:22:52Z">
+    <test name="TC_LogIn_02: Verify User LogIn functionality" duration-ms="138142" started-at="2019-02-12T17:48:28Z" finished-at="2019-02-12T17:50:46Z">
       <class name="com.automation.index.PackageIndex">
-        <test-method status="PASS" signature="sheetupdate()[pri:0, instance:com.automation.index.PackageIndex@7791a895]" name="sheetupdate" is-config="true" duration-ms="32361" started-at="2019-02-12T17:19:59Z" finished-at="2019-02-12T17:20:31Z">
+        <test-method status="PASS" signature="sheetupdate()[pri:0, instance:com.automation.index.PackageIndex@65e2dbf3]" name="sheetupdate" is-config="true" duration-ms="33490" started-at="2019-02-12T17:47:54Z" finished-at="2019-02-12T17:48:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sheetupdate -->
-        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.automation.index.PackageIndex@7791a895]" name="fetchSuiteConfiguration" is-config="true" duration-ms="30" started-at="2019-02-12T17:20:31Z" finished-at="2019-02-12T17:20:31Z">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.automation.index.PackageIndex@65e2dbf3]" name="fetchSuiteConfiguration" is-config="true" duration-ms="22" started-at="2019-02-12T17:48:28Z" finished-at="2019-02-12T17:48:28Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@1f4d38f9]]>
+                <![CDATA[org.testng.TestRunner@5d404a3c]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fetchSuiteConfiguration -->
-        <test-method status="PASS" signature="fetchSuiteConfigurationclass(org.testng.ITestContext)[pri:0, instance:com.automation.index.PackageIndex@7791a895]" name="fetchSuiteConfigurationclass" is-config="true" duration-ms="0" started-at="2019-02-12T17:20:31Z" finished-at="2019-02-12T17:20:31Z">
+        <test-method status="PASS" signature="fetchSuiteConfigurationclass(org.testng.ITestContext)[pri:0, instance:com.automation.index.PackageIndex@65e2dbf3]" name="fetchSuiteConfigurationclass" is-config="true" duration-ms="0" started-at="2019-02-12T17:48:28Z" finished-at="2019-02-12T17:48:28Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@1f4d38f9]]>
+                <![CDATA[org.testng.TestRunner@5d404a3c]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fetchSuiteConfigurationclass -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.automation.index.PackageIndex@7791a895]" name="setUp" is-config="true" duration-ms="19606" started-at="2019-02-12T17:20:31Z" finished-at="2019-02-12T17:20:51Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.automation.index.PackageIndex@65e2dbf3]" name="setUp" is-config="true" duration-ms="17283" started-at="2019-02-12T17:48:28Z" finished-at="2019-02-12T17:48:45Z">
           <params>
             <param index="0">
               <value>
@@ -96,14 +96,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@1f4d38f9]]>
+                <![CDATA[org.testng.TestRunner@5d404a3c]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="TC_LogIn_02()[pri:0, instance:com.automation.index.PackageIndex@7791a895]" name="TC_LogIn_02" duration-ms="107018" started-at="2019-02-12T17:20:51Z" finished-at="2019-02-12T17:22:38Z">
+        <test-method status="PASS" signature="TC_LogIn_02()[pri:0, instance:com.automation.index.PackageIndex@65e2dbf3]" name="TC_LogIn_02" duration-ms="107173" started-at="2019-02-12T17:48:45Z" finished-at="2019-02-12T17:50:32Z">
           <reporter-output>
             <line>
               <![CDATA[<strong><h1 style="color:DarkViolet;font-size:13px;">  </h1> </strong>]]>
@@ -161,11 +161,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- TC_LogIn_02 -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.automation.index.PackageIndex@7791a895]" name="tearDown" is-config="true" duration-ms="13780" started-at="2019-02-12T17:22:38Z" finished-at="2019-02-12T17:22:52Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.automation.index.PackageIndex@65e2dbf3]" name="tearDown" is-config="true" duration-ms="13632" started-at="2019-02-12T17:50:32Z" finished-at="2019-02-12T17:50:46Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC_LogIn_02 status=SUCCESS method=PackageIndex.TC_LogIn_02()[pri:0, instance:com.automation.index.PackageIndex@7791a895] output=<strong><h1 style="color:DarkViolet;font-size:13px;">  </h1> </strong>]]]>
+                <![CDATA[[TestResult name=TC_LogIn_02 status=SUCCESS method=PackageIndex.TC_LogIn_02()[pri:0, instance:com.automation.index.PackageIndex@65e2dbf3] output=<strong><h1 style="color:DarkViolet;font-size:13px;">  </h1> </strong>]]]>
               </value>
             </param>
           </params>
