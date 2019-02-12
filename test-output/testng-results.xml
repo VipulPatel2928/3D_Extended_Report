@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="4" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<strong><h1 style="color:DarkViolet;font-size:13px;">  </h1> </strong>]]>
+    </line>
+    <line>
+      <![CDATA[<strong><h1 style="color:DarkViolet;font-size:13px;"> TEST CASE:TC_LogIn_02::To verify That user is able to Login with the valid details</h1> </strong>]]>
+    </line>
+    <line>
+      <![CDATA[<br><strong><font color="blue">Step1: Open the Url---> https://staging.3dbroadcastsales.com/</font></strong></br>]]>
+    </line>
+    <line>
+      <![CDATA[<strong><h1 style="color:saddlebrown;font-size:11px;"> -----> 3dbroadcastsales home page open <-----</h1> </strong>]]>
+    </line>
+    <line>
+      <![CDATA[<strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> ]]>
+    </line>
+    <line>
+      <![CDATA[<br><strong><font color="blue">Step2: Click on the Login menu</font></strong></br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><strong><font color="blue">Step3: Enter the Details for Login</font></strong></br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Email Addess : JFeo@mailinator.com <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Password : pQzge@1234 <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><strong><font color="blue">Step4: Click on Login button</font></strong></br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><strong><font color="blue">Step5: User Login verification.</font></strong></br>]]>
+    </line>
+    <line>
+      <![CDATA[<strong><h1 style="color:saddlebrown;font-size:11px;"> ---> Verification Start <---</h1> </strong>]]>
+    </line>
+    <line>
+      <![CDATA[<strong><h1 style="color:saddlebrown;font-size:11px;"> ---> Account Information Verification <---</h1> </strong>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Click on Account Menu <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Email Address is verified <---</br>]]>
+    </line>
+    <line>
+      <![CDATA[<strong><h1 style="color:saddlebrown;font-size:11px;"> ---> Verification End <---</h1> </strong>]]>
+    </line>
+    <line>
+      <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;<hr size='15px' noshade color='green'></br>]]>
+    </line>
+    <line>
+      <![CDATA[<strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> ]]>
+    </line>
+  </reporter-output>
+  <suite name="3DBroadCastSales_Functional_Test_Suite" duration-ms="140469" started-at="2019-02-12T17:20:31Z" finished-at="2019-02-12T17:22:52Z">
+    <groups>
+    </groups>
+    <test name="TC_LogIn_02: Verify User LogIn functionality" duration-ms="140469" started-at="2019-02-12T17:20:31Z" finished-at="2019-02-12T17:22:52Z">
+      <class name="com.automation.index.PackageIndex">
+        <test-method status="PASS" signature="sheetupdate()[pri:0, instance:com.automation.index.PackageIndex@7791a895]" name="sheetupdate" is-config="true" duration-ms="32361" started-at="2019-02-12T17:19:59Z" finished-at="2019-02-12T17:20:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sheetupdate -->
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.automation.index.PackageIndex@7791a895]" name="fetchSuiteConfiguration" is-config="true" duration-ms="30" started-at="2019-02-12T17:20:31Z" finished-at="2019-02-12T17:20:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1f4d38f9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSuiteConfiguration -->
+        <test-method status="PASS" signature="fetchSuiteConfigurationclass(org.testng.ITestContext)[pri:0, instance:com.automation.index.PackageIndex@7791a895]" name="fetchSuiteConfigurationclass" is-config="true" duration-ms="0" started-at="2019-02-12T17:20:31Z" finished-at="2019-02-12T17:20:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1f4d38f9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSuiteConfigurationclass -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.automation.index.PackageIndex@7791a895]" name="setUp" is-config="true" duration-ms="19606" started-at="2019-02-12T17:20:31Z" finished-at="2019-02-12T17:20:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.automation.index.PackageIndex.TC_LogIn_02()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@1f4d38f9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="TC_LogIn_02()[pri:0, instance:com.automation.index.PackageIndex@7791a895]" name="TC_LogIn_02" duration-ms="107018" started-at="2019-02-12T17:20:51Z" finished-at="2019-02-12T17:22:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<strong><h1 style="color:DarkViolet;font-size:13px;">  </h1> </strong>]]>
+            </line>
+            <line>
+              <![CDATA[<strong><h1 style="color:DarkViolet;font-size:13px;"> TEST CASE:TC_LogIn_02::To verify That user is able to Login with the valid details</h1> </strong>]]>
+            </line>
+            <line>
+              <![CDATA[<br><strong><font color="blue">Step1: Open the Url---> https://staging.3dbroadcastsales.com/</font></strong></br>]]>
+            </line>
+            <line>
+              <![CDATA[<strong><h1 style="color:saddlebrown;font-size:11px;"> -----> 3dbroadcastsales home page open <-----</h1> </strong>]]>
+            </line>
+            <line>
+              <![CDATA[<strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> ]]>
+            </line>
+            <line>
+              <![CDATA[<br><strong><font color="blue">Step2: Click on the Login menu</font></strong></br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><strong><font color="blue">Step3: Enter the Details for Login</font></strong></br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Email Addess : JFeo@mailinator.com <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Password : pQzge@1234 <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><strong><font color="blue">Step4: Click on Login button</font></strong></br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><strong><font color="blue">Step5: User Login verification.</font></strong></br>]]>
+            </line>
+            <line>
+              <![CDATA[<strong><h1 style="color:saddlebrown;font-size:11px;"> ---> Verification Start <---</h1> </strong>]]>
+            </line>
+            <line>
+              <![CDATA[<strong><h1 style="color:saddlebrown;font-size:11px;"> ---> Account Information Verification <---</h1> </strong>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Click on Account Menu <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Email Address is verified <---</br>]]>
+            </line>
+            <line>
+              <![CDATA[<strong><h1 style="color:saddlebrown;font-size:11px;"> ---> Verification End <---</h1> </strong>]]>
+            </line>
+            <line>
+              <![CDATA[</br>&nbsp;&nbsp;&nbsp;&nbsp;<hr size='15px' noshade color='green'></br>]]>
+            </line>
+            <line>
+              <![CDATA[<strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_LogIn_02 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.automation.index.PackageIndex@7791a895]" name="tearDown" is-config="true" duration-ms="13780" started-at="2019-02-12T17:22:38Z" finished-at="2019-02-12T17:22:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_LogIn_02 status=SUCCESS method=PackageIndex.TC_LogIn_02()[pri:0, instance:com.automation.index.PackageIndex@7791a895] output=<strong><h1 style="color:DarkViolet;font-size:13px;">  </h1> </strong>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automation.index.PackageIndex -->
+    </test> <!-- TC_LogIn_02: Verify User LogIn functionality -->
+  </suite> <!-- 3DBroadCastSales_Functional_Test_Suite -->
+</testng-results>

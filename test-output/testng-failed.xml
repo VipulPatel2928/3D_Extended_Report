@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [3DBroadCastSales_Functional_Test_Suite]" parallel="tests">
+  <parameter name="selenium.port" value="4444"/>
+  <parameter name="selenium.host" value="localhost"/>
+  <parameter name="selenium.browser" value="chrome"/>
+  <parameter name="selenium.url" value="https://staging.3dbroadcastsales.com/"/>
+  <listeners>
+    <listener class-name="com.automation.utility.CustomReporterListener"/>
+    <listener class-name="com.automation.utility.CustomReporterEmailBuildSummary"/>
+    <listener class-name="com.automation.utility.CustomReporterforEmail"/>
+    <listener class-name="com.automation.utility.CustomReporterBuildSummary"/>
+    <listener class-name="com.automation.utility.CustomReporterTestpassDetails"/>
+    <listener class-name="com.automation.utility.CustomReporterTestFailureDetails"/>
+    <listener class-name="com.automation.utility.CustomReporterTestskipDetails"/>
+    <listener class-name="com.automation.utility.CustomReporterTestDetails"/>
+    <listener class-name="com.automation.utility.TestListener"/>
+    <listener class-name="com.automation.utility.AnnotationTransformer"/>
+  </listeners>
+  <test thread-count="1" verbose="0" name="TC_Menu_Page_03: Verify Any Menu page Functionalities(failed)" parallel="tests">
+    <classes>
+      <class name="com.automation.index.PackageIndex">
+        <methods>
+          <include name="TC_Menu_Page_03"/>
+          <include name="sheetupdate"/>
+          <include name="fetchSuiteConfigurationclass"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="fetchSuiteConfiguration"/>
+        </methods>
+      </class> <!-- com.automation.index.PackageIndex -->
+    </classes>
+  </test> <!-- TC_Menu_Page_03: Verify Any Menu page Functionalities(failed) -->
+</suite> <!-- Failed suite [3DBroadCastSales_Functional_Test_Suite] -->

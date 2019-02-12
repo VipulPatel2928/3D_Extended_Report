@@ -1,0 +1,120 @@
+<html>
+<head>
+<title>TestNG:  TC_SignUp_01: Verify User SignUp functionality</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>TC_SignUp_01: Verify User SignUp functionality</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Feb 11 14:31:21 GMT 2019</td>
+</tr>
+<tr><td>Total time:</td><td>156 seconds (156363 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.automation.index.PackageIndex.TC_SignUp_01()'><b>TC_SignUp_01</b><br>Test class: com.automation.index.PackageIndex<br/>
+<a href="#Output-1556129298" onClick='toggleBox("Output-1556129298", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1556129298" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1556129298">
+<strong><h1 style="color:DarkViolet;font-size:13px;">  </h1> </strong><br/>
+<strong><h1 style="color:DarkViolet;font-size:13px;"> TEST CASE:TC_SignUp_01:: To verify That user is able to SignUp with the valid details</h1> </strong><br/>
+<br><strong><font color="blue">Step1: Open the Url---> https://staging.3dbroadcastsales.com/</font></strong></br><br/>
+<strong><h1 style="color:saddlebrown;font-size:11px;"> -----> 3dbroadcastsales home page open <-----</h1> </strong><br/>
+<strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> <br/>
+<br><strong><font color="blue">Step2: Click on the SignUp menu</font></strong></br><br/>
+<br><strong><font color="blue">Step3: Enter the Details for the SignUp</font></strong></br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;Enter First Name :--->RADqd <---</br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;Enter Last Name :--->ltoMU <---</br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;Click on the Sign Up for Newsletter check box</br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;Enter Email Address :--->JFeo@mailinator.com <---</br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;Enter Password :--->pQzge@1234 <---</br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;Enter Confirm Password :--->pQzge@1234 <---</br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Click on Remember Me What's this? check box <---</br><br/>
+<br><strong><font color="blue">Step4: Click on SignUp button</font></strong></br><br/>
+<br><strong><font color="blue">Step5: User Sign Up verification.</font></strong></br><br/>
+<strong><h1 style="color:saddlebrown;font-size:11px;"> ---> Verifycation Start <---</h1> </strong><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Thank you for registering with 3D Broadcast Sales message is verified <---</br><br/>
+<strong><h1 style="color:saddlebrown;font-size:11px;"> ---> Click on Account Inormation for Details Verification <---</h1> </strong><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;---> First name is verified <---</br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Last name is verified <---</br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Email Address is verified <---</br><br/>
+<strong><h1 style="color:saddlebrown;font-size:11px;"> ---> Open Mailinator for Email Verification <---</h1> </strong><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Enter Email Id :JFeo@mailinator.com <---</br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;---> First name and Last Name verified in Email. <---</br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Welcome Email, 3DbroadCastSale as a sender verified. <---</br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;---> Newsletter subscription, 3DbroadCastSale as a sender verified. <---</br><br/>
+<strong><h1 style="color:saddlebrown;font-size:11px;"> ---> Verifycation End <---</h1> </strong><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;<hr size='15px' noshade color='green'></br><br/>
+<strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> <br/>
+</div>
+</td>
+<td></td>
+<td>116</td>
+<td>com.automation.index.PackageIndex@3b0143d3</td></tr>
+</table><p>
+</body>
+</html>
